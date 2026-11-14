@@ -21,8 +21,7 @@ jobs:
 
     - name: Setup Android SDK
       uses: android-actions/setup-android@v3
-      with:
-        cmdline-tools-version: '11.0' # Указываем рабочую версию инструментов
+
 
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
